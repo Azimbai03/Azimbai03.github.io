@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+nav a {
+ margin-left: 350px;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav a:hover {
+  font-size: 40px;
+  text-decoration: underline;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section h1 {
+  color: white;
+}
+footer{
+  width: 100%;
+  height:140px;
+  background-color: black;
+  color: aliceblue;
+}
+#home{
+  color: rgb(92, 11, 168);
+  font-size: 50px;
+  background-image: url(https://thumbs.dreamstime.com/z/%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B0-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%81%D1%82%D0%BE%D0%B2-108731215.jpg);
+}
+h2{
+  color: rgb(80, 79, 79);
+  font-size: 50px;
+}
+p{
+  border: rgb(131, 131, 134) solid 2px ;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+h3{
+  text-align: center;
+  color: blue;
+}
+img{
+  width:150px;
+  height: 250px;
+  float: left;
+}
+#sl>a{
+  color: rgb(38, 0, 255);
+  font-size: 50px;
+  margin-left: 100px;
+}
+.contact{
+margin-left: 500px;
+      width: 330px;
+      display: flex;
+   background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+  box-shadow: 0 0 10px black;
+  height: 440px;
+  padding: 5px;
+}
+
+
+p>.contact{
+       margin: 5PX;
+      color: rgb(155, 155, 155);
+      text-align: start;
+  }
+  .a{
+    color: lightseagreen;
+      margin: 5px;
+      height: 25px;
+  }
+  .b{
+      height: 25px;
+      margin: 5px;
+  }
+  .c{
+      height: 25px;
+      margin: 5px;
+  }
+  .d{
+      height: 25px;
+      margin: 5px;
+  }
+  .e{
+      margin: 5px;
+      height: 70px;
+  }
+  .f{
+     background-color: green;
+      margin: 5px; 
+      color: white;
+      height: 35px;
+  }
+  #a{
+    color: lightgreen;
+    font-size: 30px;
+    color: darkgrey;
+  }
+  #project{
+    background-image: url(https://image.freepik.com/free-photo/_1428-202.jpg);
+  width: 100%;
+  height: 100vh;
+  }
+ 

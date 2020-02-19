@@ -27,7 +27,7 @@ nav a {
   font-size: 25px;
 }
 nav a:hover {
-  font-size: 40px;
+  font-size: 35px;
   text-decoration: underline;
 }
 section {
@@ -35,7 +35,7 @@ section {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+ 
 }
 section h1 {
   color: white;
@@ -51,8 +51,11 @@ footer{
   font-size: 50px;
   background-image: url(https://i2.rozetka.ua/goods/15914139/165551268_images_15914139207.jpg);
 }
+h1{
+  font-size: 65px;
+}
 h2{
-  color: rgb(134, 134, 134);
+  color: blue;
   font-size: 50px;
 }
 p{
@@ -69,13 +72,20 @@ img{border-radius: 15px;
   width:150px;
   height: 250px;
   float: left;
+  }
+#sl{
+margin-top: 150px;
 }
 #sl>a{
   color: rgb(38, 0, 255);
   font-size: 50px;
   margin-left: 100px;
 }
+#contact{
+  padding-top: 150px;
+}
 .contact{
+  margin-top: 150px;
 margin-left: 500px;
       width: 330px;
       display: flex;
@@ -86,9 +96,8 @@ margin-left: 500px;
   box-shadow: 0 0 10px black;
   height: 440px;
   padding: 5px;
+  text-align: center;
 }
-
-
 p>.contact{
        margin: 5PX;
       color: rgb(155, 155, 155);
@@ -130,18 +139,26 @@ p>.contact{
     background-image: url(https://image.freepik.com/free-photo/_1428-202.jpg);
   width: 100%;
   height: 100vh;
+  padding-top:300px;
   }
  .para{
     width: 60%;
     height: 60%;
     float:left ;
   }
- #hh{
+ header{
    color: rgb(255, 255, 255);
-   font-size: 50px;
+   font-size: 65px;
+   margin-top: 200px;
  }
   .junior{
+    margin-right: 250px;
+   margin-top: 250px;
     font-size: 30px;
     color: floralwhite;
   }
- 
+ #ll{
+   margin-top: 142px;
+   width: 15%;
+   height: 390px;
+ }

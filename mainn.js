@@ -1,7 +1,7 @@
 let sections = document.querySelectorAll("section");
 let links = document.querySelectorAll("nav a");
 
-let colors = ["", "beige", "", "skyblue", "silver"];
+let colors = ["", "darkgrey", "", "skyblue", "silver"];
 
 for (let i = 0; i < sections.length; i++) {
   const element = sections[i];

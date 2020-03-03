@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+nav ul {
+    position: sticky;
+width: 97%;
+height: 70px;
+color: aliceblue;
+display: flex;
+flex-wrap: wrap;
+background-color: green;
+text-align: center;
+align-items: center;
+}
+li>a{
+    padding-left: 100px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+li:hover{
+ width:auto;
+    height:68px;
+background-color: rgb(94, 175, 94);
+}
+ul li{
+    text-align: center;
+    list-style-type: none;
+}
+
+section{
+    width:30%;
+    display:inline-block;
+   }
+div img{
+    height: 200px;
+    width:80% ;
+}
+a{
+font-size: 20px;
+
+}
+#class{
+    margin: 40%;
+    text-align: center;
+}
